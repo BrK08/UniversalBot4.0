@@ -40,7 +40,7 @@ module.exports = async (client) => {
   );
 
   
-  client.user.setActivity('Netflix', {
-    type: ActivityType.Watching,
+  client.user.setActivity('click on the bot to add it to the server', 'sunucuya eklemek için botun üzerine tıklayın', {
+    type: ActivityType.Playing,
   });
 };
