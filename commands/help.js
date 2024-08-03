@@ -42,8 +42,8 @@ module.exports = {
     const embed1 = new EmbedBuilder()
       .setTitle('Bot Information')
       .setDescription(
-        `Developed By: **GlaceYT**\n`+
-        `Node Version: **v20.12.2**\n` +
+        `Developed By: **mr_berk.**\n`+
+        `Bot Version: **4.0**\n` +
         `Server Name: **${interaction.guild.name}**\n` +
         `Total Members: **${interaction.guild.memberCount}**\n` +
         `DisTube Status: **${queueStatus}**`
